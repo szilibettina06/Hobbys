@@ -1,0 +1,154 @@
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #555;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.main-background {
+    background-image:linear-gradient(rgba(0,0,0,6),rgba(0,0,0,0.1)),url("./background.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.more-background{
+    background-image: url("./more-background.jpg");
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
+#more-text{
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 40px;
+}
+
+.row {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.main-nav {
+    list-style: none;
+    display: flex;
+
+    justify-content: end;
+    margin-top: 0px;
+
+}
+
+.main-nav li {
+    margin-right: 15px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.main-nav li a {
+    color: #fff;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+    padding: 7px 0px;
+    transition: 0.25s;
+
+
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e23;
+    transition: 0.25s;
+}
+
+.hero-text-box {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    font: size 260%;
+    word-spacing: 4px;
+}
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    font-weight: 300;
+    padding: 15px 30px;
+    border-radius: 200px;
+    transition: 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    color: #fff;
+    background-color: #e67e23;
+    border: 2px solid #fa7d19;
+    margin-right: 15px;
+}
+
+.btn-empty:link,
+.btn-empty:visited {
+    color: #e67e23;
+    border: 1px solid #e67e23;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #fa7d19;
+    border: 1px solid #fa7d19;
+}
+
+.btn-empty:hover,
+.btn-empty:active {
+    color: #fff;
+    
+}
+.info-background {
+    background-image: url("./about-background.jpg");
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
+.text-box {
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color:#fff;
+
+}
+.title {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #fff;
+
+}
+.about-background{
+    background-image: linear-gradient(rgba(0, 0, 0, 6), rgba(0, 0, 0, 0.1)), url("./footer-background.jpg");
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
+.about-text{
+    color: #fff;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 20%);
+}
+
+
+
