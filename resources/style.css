@@ -23,8 +23,8 @@ body {
     background-size: cover;
 }
 #more-text{
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 40px;
 }
 
@@ -144,8 +144,8 @@ h1 {
 }
 .about-text{
     color: #fff;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 40px;
     background-color: rgba(0, 0, 0, 20%);
 }
