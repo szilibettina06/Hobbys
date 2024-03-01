@@ -29,8 +29,8 @@ body {
 }
 
 .row {
-    margin: 0 auto;
-    max-width: 2000px;
+    margin: 0;
+    max-width: 1250px;
 }
 
 .main-nav {
@@ -69,7 +69,7 @@ body {
     position: absolute;
     top: 50%;
     left: 10%;
-}
+} 
 
 h1 {
     color: #fff;
@@ -125,8 +125,8 @@ h1 {
     align-items: center;
     text-align: center;
     margin-top: 40px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     color:#fff;
 
 }
@@ -145,8 +145,8 @@ h1 {
 }
 .about-text{
     color: #fff;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 20px;
     background-color: rgba(0, 0, 0, 20%);
 }
